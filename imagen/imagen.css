@@ -1,0 +1,33 @@
+div
+{
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+  margin: 50px;
+}
+
+.imagen
+{
+  background: url("qws.jpg"),
+              url("imagen.jpg");
+  background-repeat: no-repeat,repeat;
+
+  background-position:  right bottom ,center center;
+}
+
+.degradados{
+  /*background: -moz-linear-gradient(
+      left 40deg,
+      blue 0%,
+      red 30%,
+      green 80%,
+      yellow 100%
+    );*/
+    background: -moz-radial-gradient(
+        center ,
+        blue 0%,
+        red 30%,
+        green 80%,
+        yellow 100%
+      );
+}
