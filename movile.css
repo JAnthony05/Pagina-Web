@@ -1,0 +1,27 @@
+body{
+  background: orange;
+}
+
+div
+{
+width: 100px;
+height: 150px;
+border: 2px solid black;
+margin: 50px;
+
+
+}
+
+@media screen and (min-width: 480px){
+  body
+  {
+    background:blue;
+  }
+
+}
+@media screen and (min-width: 767px){
+
+}
+@media screen and (min-width: 950px){
+
+}

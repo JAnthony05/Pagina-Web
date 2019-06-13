@@ -1,0 +1,51 @@
+div
+{
+  width:200px;
+  height: 200px;
+  background: orange;
+  border: 2px solid red;
+  margin:  50px;
+  /*transform: rotate(20deg);
+     transform-origin: 5%, center;
+ transform-origin: left center;
+ transform: skew(20deg,45deg);*/
+
+
+ transition-property: all;
+ transition-duration:6s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 3s;
+  /*   transition: all 2s linear;
+  transition-timing-function: ease-out;
+   transition-timing-function: ease-in;
+transition-timing-function: linear;*/
+/*
+ease,
+ease-in,
+ease-out,
+ease-in-out,
+linear
+ /*===TRANSITION ====*/
+
+}
+.aux:hover
+{
+ /*transform: translateY(00px);*/
+transform: rotate(90deg) skew(20deg);
+background:green;
+}
+
+
+ /*===TRANSFORM ====*/
+
+/*Transform: tipo(cantidad);
+Transform: tipoX(cantidad);
+Transform: tipoY(cantidad);
+Transform: tipo(cantidadX,cantidadY);
+Transform: tipo()tipo()tipo();
+Transform-origin:;
+rotate
+skew
+translate
+scale
+ /*===TRANSFORM ====*/
