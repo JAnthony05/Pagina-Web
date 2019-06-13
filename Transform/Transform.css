@@ -9,8 +9,6 @@ div
      transform-origin: 5%, center;
  transform-origin: left center;
  transform: skew(20deg,45deg);*/
-
-
  transition-property: all;
  transition-duration:6s;
     transition-timing-function: ease-in-out;
